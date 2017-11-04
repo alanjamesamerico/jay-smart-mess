@@ -23,7 +23,8 @@ class TelegramBotStop(RequestHandler):
         telegram_bot.stop_bot()
 
 
-URL_PROD = 'https://jay-smart-messenger.herokuapp.com'
+#URL_PROD = 'https://jay-smart-messenger.herokuapp.com'
+URL_PROD = 'https://jay-mess.herokuapp.com/'
 URL_TEST = ''
 PORT = int(os.environ.get("PORT", 8000))
 
